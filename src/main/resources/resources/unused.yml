@@ -1,0 +1,2 @@
+# Stays in the JAR: extraction is switched off by QuietPlugin.
+unused: true

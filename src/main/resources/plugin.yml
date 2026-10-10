@@ -1,0 +1,9 @@
+  name: VersatiaExample-Enhancements-FeatureSwitches
+  version: '${version}'
+  main: com.github.marcoral.versatia.example.switches.SwitchesPlugin
+  api-version: '1.21'
+  author: Versatia
+  description: Built-in features switched off.
+  # Kotlin classes come from VersatiaCore's class loader; do not list kotlin-stdlib here
+  depend:
+- VersatiaCore
