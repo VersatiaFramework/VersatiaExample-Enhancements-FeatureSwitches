@@ -1,18 +1,17 @@
-    # VersatiaExample-Enhancements-FeatureSwitches
+# VersatiaExample-Enhancements-FeatureSwitches
 
-    Switching off what every plugin otherwise gets: `@DisableVersatiaFeatures` on a base class and on the main class, showing that the nearest declaration wins.
+Switching off what every plugin otherwise gets: `@DisableVersatiaFeatures` on a base class and on the main class, showing that the nearest declaration wins.
 
-    Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Enhancements on a base class](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#enhancements-on-a-base-class).
+Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Enhancements on a base class](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#enhancements-on-a-base-class).
 
-    **Start with** [`SwitchesPlugin.kt`](src/main/kotlin/com/github/marcoral/versatia/example/switches/SwitchesPlugin.kt).
+**Start with** [`SwitchesPlugin.kt`](src/main/kotlin/com/github/marcoral/versatia/example/switches/SwitchesPlugin.kt).
 
-    ## What the log shows
+## What the log shows
 
-    ```
-    unused.yml extracted: false
+```
+unused.yml extracted: false
 listeners registered: 0
-    ```
-
+```
 
 ## Things to try
 
@@ -24,8 +23,10 @@ listeners registered: 0
 
 ## Building
 
-Requires JDK 21 and VersatiaAPI in your local Maven repository (`./gradlew publishToMavenLocal`
-in its checkout); running it requires a Paper 1.21.4 server with VersatiaCore installed.
+Requires JDK 21 and VersatiaStarter with what it exports (VersatiaAPI, the module APIs) in your
+local Maven repository (`./gradlew publishToMavenLocal` in each checkout; see
+[Building the framework](https://versatiaframework.github.io/VersatiaDocs/docs/contributing/building));
+running it requires a Paper 1.21.4 server with VersatiaCore installed.
 
 ```bash
 ./gradlew build
