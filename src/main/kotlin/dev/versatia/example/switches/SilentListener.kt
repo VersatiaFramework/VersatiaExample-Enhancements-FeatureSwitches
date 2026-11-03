@@ -1,4 +1,4 @@
-package com.github.marcoral.versatia.example.switches
+package dev.versatia.example.switches
 
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener

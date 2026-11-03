@@ -1,8 +1,8 @@
-package com.github.marcoral.versatia.example.switches
+package dev.versatia.example.switches
 
-import com.github.marcoral.versatia.DisableVersatiaFeatures
-import com.github.marcoral.versatia.Phase
-import com.github.marcoral.versatia.lifecycle.AutoInvoke
+import dev.versatia.DisableVersatiaFeatures
+import dev.versatia.Phase
+import dev.versatia.lifecycle.AutoInvoke
 import org.bukkit.event.HandlerList
 
 /** Inherits the extraction switch from `QuietPlugin` and switches listener registration off itself. */

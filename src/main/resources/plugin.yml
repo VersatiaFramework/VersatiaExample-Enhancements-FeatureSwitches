@@ -1,6 +1,6 @@
 name: VersatiaExample-Enhancements-FeatureSwitches
 version: '${version}'
-main: com.github.marcoral.versatia.example.switches.SwitchesPlugin
+main: dev.versatia.example.switches.SwitchesPlugin
 api-version: '1.21'
 author: Versatia
 description: Built-in features switched off.

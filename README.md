@@ -2,9 +2,9 @@
 
 Switching off what every plugin otherwise gets: `@DisableVersatiaFeatures` on a base class and on the main class, showing that the nearest declaration wins.
 
-Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Enhancements on a base class](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#enhancements-on-a-base-class).
+Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Enhancements on a base class](https://versatia.dev/docs/internals/enhancements#enhancements-on-a-base-class).
 
-**Start with** [`SwitchesPlugin.kt`](src/main/kotlin/com/github/marcoral/versatia/example/switches/SwitchesPlugin.kt).
+**Start with** [`SwitchesPlugin.kt`](src/main/kotlin/dev/versatia/example/switches/SwitchesPlugin.kt).
 
 ## What the log shows
 
@@ -25,7 +25,7 @@ listeners registered: 0
 
 Requires JDK 21 and VersatiaAPI in your
 local Maven repository (`./gradlew publishToMavenLocal` in each checkout; see
-[Building the framework](https://versatiaframework.github.io/VersatiaDocs/docs/contributing/building));
+[Building the framework](https://versatia.dev/docs/contributing/building));
 running it requires a Paper 1.21.4 server with VersatiaCore installed.
 
 ```bash
